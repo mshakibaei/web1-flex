@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>nav bar</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      html {
+        direction: rtl;
+      }
+      .header {
+        display: flex;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+          rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        height: 60px;
+        align-items: center;
+      }
+      .header__nav {
+        margin-right: 20px;
+      }
+      .header__auth {
+        margin-right: auto;
+      }
+      .header__logo {
+        width: 150px;
+      }
+      .header__nav-link {
+        padding: 0 10px;
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(157, 165, 165);
+      }
+      body {
+        font-family: Vazirmatn, sans-serif;
+      }
+      .header__login-btn {
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(41, 20, 197);
+        margin-left: 5px;
+      }
+      .header__register-btn {
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(41, 20, 197);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-container">
+        <a href="#">
+          <img class="header__logo" src="assets/img/logo.png" alt="" />
+        </a>
+      </div>
+      <nav class="header__nav">
+        <a href="#" class="header__nav-link">خانه</a>
+        <a href="#" class="header__nav-link">محصولات</a>
+        <a href="#" class="header__nav-link">درباره ما</a>
+        <a href="#" class="header__nav-link">تماس با ما</a>
+      </nav>
+      <div class="header__auth">
+        <a href="#" class="header__login-btn">ورود</a>
+        <a href="#" class="header__register-btn">ثبت نام</a>
+      </div>
+    </header>
+  </body>
+</html>

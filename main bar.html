@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main bar</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .blog {
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+          rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 20px;
+      }
+      .blog__img-container {
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      .blog__img {
+        display: block;
+        width: 100%;
+      }
+      .blog__title {
+        font-size: 18px;
+      }
+      html {
+        direction: rtl;
+      }
+      .log__date {
+        margin-top: 10px;
+      }
+      .blog__description {
+        padding-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blog">
+      <div class="blog__img-container">
+        <img
+          class="blog__img"
+          src="assets/img/Best-Mibro-A2-Accessories-14-60x60.jpg"
+          alt=""
+        />
+      </div>
+      <div class="blog__description">
+        <h3 class="blog__title">بهترین لوازم جانبی ساعت</h3>
+        <div class="log__date">دیروز</div>
+      </div>
+    </div>
+  </body>
+</html>
